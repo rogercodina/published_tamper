@@ -1,0 +1,7 @@
+name = Published Tamper
+description = This drupal module adds a new tamper plugin which allows to import published status from various input strings
+version = "7.x-1.0"
+core = "7.x"
+package = "Feeds"
+
+dependencies[] = feeds_tamper

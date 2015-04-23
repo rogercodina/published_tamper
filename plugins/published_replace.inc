@@ -51,5 +51,8 @@ function published_tamper_callback($source, $item_key, $element_key, &$field, $s
       $out[] = $f;
     }
   }
+  if (count($out) == 1) {
+    $out = $out[0];
+  }
   $field = $out;
 }
